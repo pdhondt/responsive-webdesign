@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 @media only screen and (max-width: 500px) {
     body {
         background-color: #ff0000;
@@ -18,7 +22,7 @@
     #large {
         /* display: none; */
         display: block;
-        width: 100%
+        width: 100%;
     }
 }
 
@@ -28,15 +32,24 @@
     }
 
     #small {
-        display: none;
+        /* display: none; */
+        display: inline;
+        width: 66%;
+        float: left;
     }
 
     #medium {
         font-size: 15px;
+        display: inline;
+        width: 33%;
+        float: left;
     }
 
     #large {
-        display: none;
+        /* display: none; */
+        display: inline;
+        width: 100%;
+        float: left;
     }
 }
 
@@ -46,15 +59,24 @@
     }
 
     #small {
-        display: none;
+        /* display: none; */
+        display: inline-block;
+        width: 33%;
+        float: left;
     }
 
     #medium {
-        display: none;
+        /* display: none; */
+        display: inline-block;
+        width: 33%;
+        float: left;
     }
 
     #large {
         font-size: 20px;
+        display: inline-block;
+        width: 33%;
+        float: left;
     }
 
 }

@@ -1,0 +1,60 @@
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: #ff0000;
+    }
+
+    #small {
+        font-size: 10px;
+        display: block;
+        width: 100%;
+    }
+
+    #medium {
+        /* display: none; */
+        display: block;
+        width: 100%;
+    }
+
+    #large {
+        /* display: none; */
+        display: block;
+        width: 100%
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 768px) {
+    body {
+        background-color: #008000;
+    }
+
+    #small {
+        display: none;
+    }
+
+    #medium {
+        font-size: 15px;
+    }
+
+    #large {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        background-color: #0000ff;
+    }
+
+    #small {
+        display: none;
+    }
+
+    #medium {
+        display: none;
+    }
+
+    #large {
+        font-size: 20px;
+    }
+
+}
